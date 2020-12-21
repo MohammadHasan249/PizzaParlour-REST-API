@@ -1,0 +1,8 @@
+{
+"Pizzas": [["Margherita", 10.99], ["Pepperoni", 12.99]],
+"Drinks": [["Sprite", 2.99], ["Pepsi", 3.99]],
+"PizzaSizes": [["Small", 0.0], ["Medium", 3.99], ["Large", 6.99]],
+"DrinkSizes": [["Small", 0.0], ["Medium", 2.99], ["Large", 4.99]],
+"Toppings": [["Extra Cheese", 1.99]],
+"Sides": [["Fries", 6.99]]
+}
