@@ -10,37 +10,6 @@ How to run tests:
     Do not run this while PizzaParlour.py or main.py is active.
     This should be run on its own.
 
-Pair Programming:
-    Feature 1:
-        Driver: Haider
-        Navigator: Mohammad
-        Details: We implemented the Menu and MenuItem infrastructure needed for
-        the Menu to be displayed as well as for its items to be capable of being
-        ordered (we have had to make some changes it later on but the Driver and
-        Observer did not change).
-    Feature 2:
-        Driver: Mohammad
-        Navigator: Haider
-        Details: We implemented the Order infrastructure needed for the order 
-        to be displayed as well as items being able to be ordered and changed.
-        We also implemented an ItemFactory that allows us to initialize items
-        directly, without needing to worry about the types of items being 
-        initialized. Finally, we implemented the Delivery infrastructure that 
-        allows the user to have their order delivered to their address.
-    Reflection:
-	    Pros: We were able to code with little to no errors because of
-        this technique. It also allowed us to create cleaner code than if we had
-        coded individually.
-	    Cons: It might not have been worth it due to our timezone 
-        differences as it was a somewhat time-consuming process (since it 
-        required two people to be active at the same time which was a hurdle as 
-        we both were living in different timezones, one in Ontario, Canada and 
-        the other in U.A.E.) 
-	    Conclusion: Although it has its pros, we do not think that this process 
-	    was worth the effort. In our opinion, it would have been more worthwhile
-	    to have one person code the feature and the other look at it later on at
-	    a more comfortable time.
-
 How we represented objects and the relationships between these objects:
     1) MenuItem.py holds the MenuItem class which represents the items on the menu
     to be shown to the user. It contains all the relevant information about a
